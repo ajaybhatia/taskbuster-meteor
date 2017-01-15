@@ -1,0 +1,21 @@
+/*****************************************************************************/
+/* task-item: Style */
+/*****************************************************************************/
+.task-item {
+}
+
+.list-group-item {
+  margin: 20px 0 0 0;
+}
+
+.glyphicon-edit, .glyphicon-remove {
+  margin: 0 0 0 10px;
+}
+
+.glyphicon-ok:hover, .glyphicon-edit:hover, .glyphicon-remove:hover {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}

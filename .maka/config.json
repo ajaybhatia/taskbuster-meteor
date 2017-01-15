@@ -1,0 +1,26 @@
+{
+  "engines": {
+    "html": "html",
+    "js": "js",
+    "css": "css",
+    "api": "rest",
+    "client": "blaze",
+    "test": "jasmine"
+  },
+
+  "template": {
+    "html": "true",
+    "js": "true",
+    "css": "true",
+    "test": "false"
+  },
+
+  "route": {
+    "controller": "undefined",
+    "template": "true"
+  },
+
+  "generator": {
+    "comments": "true"
+  }
+}

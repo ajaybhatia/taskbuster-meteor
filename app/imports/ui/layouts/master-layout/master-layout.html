@@ -1,0 +1,16 @@
+<template name="MasterLayout">
+  {{> Navigation}}
+
+  <div class="container">
+    {{> Template.dynamic template=yield}}
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">
+        <span class="copyright">Copyright &copy; 2017. All rights reserved by Ajay</span>
+        <span class="poweredby pull-right">Powered by maka-cli</span>
+      </p>
+    </div>
+  </footer>
+</template>

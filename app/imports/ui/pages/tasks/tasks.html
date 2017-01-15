@@ -1,0 +1,17 @@
+<template name="Tasks">
+  <div class="tasks">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div id="legend">
+          <legend class="h1 text-muted">Tasks ({{ inCompleteNumber }})</legend>
+        </div>
+
+        <ul class="list-group">
+        {{#each tasks}}
+          {{> TaskItem}}
+        {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</template>
